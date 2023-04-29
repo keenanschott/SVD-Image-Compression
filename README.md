@@ -14,4 +14,6 @@ In this instance, a given PNG image can be broken down into three channels: red,
 
 ## Energy
 
-$E = \frac{\Sigma_{i=1}^{n} {σ_i}^2}{\Sigma_{i=1}^{rank} {σ_i}^2}$
+Where a numbeer $n$ of singular values and a number $k$ is the rank of the input matrix, the energy is given by
+
+$E = \frac{\Sigma_{i=1}^{n} {σ_i}^2}{\Sigma_{i=1}^{k} {σ_i}^2}$
