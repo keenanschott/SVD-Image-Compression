@@ -18,12 +18,14 @@ In this instance, a given PNG image can be broken down into three channels: red,
 
 ## Energy
 
-Where a number $n$ of singular values and a number $k$ is the rank of the input matrix, the energy is given by
+Where a number $n$ of singular values and a number $k$ is the rank of the input matrix, the energy for a given channel is given by
 
 $E = \frac{\Sigma_{i=1}^{n} {σ_i}^2}{\Sigma_{i=1}^{k} {σ_i}^2}$
 
 ## Output
 
-In the `images` folder, three example images can be found in which the user can use to compress (or not, up to you  ). `car.png`'s compression looks as follows with a number $n$ of singular values equal to $20$:
+In the `images` folder, three example images can be found in which the user can compress (or not, up to you). `car.png`'s compression looks as follows with a number $n$ of singular values equal to $20$:
 
 ![`car.png`](https://i.imgur.com/TnOybsG.png "car.png")
+
+Please feel free to work on the present issue or expand on the project. Special thanks to Professor Mikucki and [Tim Baumann](http://timbaumann.info/svd-image-compression-demo/).
