@@ -1,5 +1,9 @@
 # SVD Image Compression
 
+## Setup
+
+A valid [Python](https://www.python.org/downloads/) installation, [NumPy](https://numpy.org/install/), and [Pillow](https://pillow.readthedocs.io/en/latest/installation.html).
+
 ## Singular Value Decomposition
 
 Singular Value Decomposition (SVD) states that every (m×n)‑matrix $A$ can be written as a product
@@ -20,6 +24,6 @@ $E = \frac{\Sigma_{i=1}^{n} {σ_i}^2}{\Sigma_{i=1}^{k} {σ_i}^2}$
 
 ## Output
 
-In the `images` folder, three example images can be found in which the user can use to compress. `car.png`'s compressions looks as follows:
+In the `images` folder, three example images can be found in which the user can use to compress (or not, up to you  ). `car.png`'s compression looks as follows with a number $n$ of singular values equal to $20$:
 
 ![`car.png`](https://i.imgur.com/TnOybsG.png "car.png")
