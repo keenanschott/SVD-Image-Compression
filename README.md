@@ -24,7 +24,7 @@ $E = \frac{\Sigma_{i=1}^{n} {σ_i}^2}{\Sigma_{i=1}^{k} {σ_i}^2}$
 
 ## Output
 
-In the `images` folder, three example images can be found in which the user can compress (or not, up to you). `car.png`'s compression looks as follows with a number $n$ of singular values equal to $20$:
+In the `images` folder, three example images can be found that the user can compress (or not, up to you). `car.png`'s compression looks as follows with a number $n$ of singular values equal to $20$:
 
 ![`car.png`](https://i.imgur.com/TnOybsG.png "car.png")
 
