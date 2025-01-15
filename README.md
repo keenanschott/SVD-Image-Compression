@@ -2,7 +2,11 @@
 
 ## Setup
 
-A valid [Python](https://www.python.org/downloads/) installation, [NumPy](https://numpy.org/install/), and [Pillow](https://pillow.readthedocs.io/en/latest/installation.html).
+The `requirements.txt` file should list all Python libraries that `SVD.py` depends on, and they can be installed using:
+
+```
+pip install -r requirements.txt
+```
 
 ## Singular Value Decomposition
 
